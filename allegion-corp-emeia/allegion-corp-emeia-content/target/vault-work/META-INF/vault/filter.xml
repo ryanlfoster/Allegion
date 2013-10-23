@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/allegion-corp-emeia" />
+    <filter root="/etc/designs/allegion-corp-emeia">
+        <include pattern="/etc/designs/allegion-corp-emeia/jcr:content" />
+    </filter>
+    <filter root="/content/dam/allegion-corp-emeia" />
+    <filter root="/content/share/allegion-corp-emeia" />
+</workspaceFilter>

@@ -1,0 +1,28 @@
+-include:   pom.xml
+
+Bundle-Name: ${project.name}
+Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+Bundle-Version: ${project.version}
+Bundle-Description: ${project.description}
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Valtech, 2013
+Bundle-ContactAddress: support@valtech-agency.fr
+Bundle-Category: allegion
+Built-By: ${env;USER}
+Created-When: ${now}
+
+-debug: false
+-sources: false
+-removeheaders: Include-Resource
+-runfw: org.apache.felix.framework;version=4.0.0
+-runee: JavaSE-1.6
+
+Private-Package: com.allegion.corp.emeia.impl,\
+				com.allegion.corp.emeia.impl.servlet,\
+				com.allegion.corp.emeia.impl.service
+				
+Export-Package: com.allegion.corp.emeia;version=${project.version},\
+				com.allegion.corp.emeia.resource;version=${project.version},\
+				com.allegion.corp.emeia.service;version=${project.version}
+
+Import-Package: *

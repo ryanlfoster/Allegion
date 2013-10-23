@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/allegion-corp-emeia" />
+    <filter root="/etc/designs/allegion-corp-emeia" />
+    <filter root="/content/allegion-corp-emeia" />
+    <filter root="/content/dam/allegion-corp-emeia" />
+    <filter root="/content/share/allegion-corp-emeia" />
+    <filter root="/etc/blueprints/allegion-corp-emeia" />
+    <filter root="/home/groups/allegion-corp-emeia" />
+    <filter root="/content/usergenerated/content/allegion-corp-emeia" />
+    <filter root="/etc/workflow/models/allegion-corp-emeia" />
+    <filter root="/etc/workflow/launcher/config/allegion-corp-emeia_demo_launcher" />
+    <filter root="/etc/packages/allegion-corp-emeia" />
+</workspaceFilter>

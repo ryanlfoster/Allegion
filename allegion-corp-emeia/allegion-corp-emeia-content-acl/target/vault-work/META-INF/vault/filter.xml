@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/allegion-corp-emeia/rep:policy" />
+    <filter root="/content/share/allegion-corp-emeia/rep:policy" />
+    <filter root="/content/dam/allegion-corp-emeia/rep:policy" />
+</workspaceFilter>

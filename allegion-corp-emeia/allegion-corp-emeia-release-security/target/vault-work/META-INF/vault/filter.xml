@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/etc/packages/allegion-corp-emeia/allegion-corp-emeia-release-security-1.0-SNAPSHOT.zip" />
+    <filter root="/etc/packages/allegion/allegion-corp-emeia/allegion-corp-emeia-groups-1.0-SNAPSHOT.zip" />
+    <filter root="/etc/packages/allegion/allegion-corp-emeia/allegion-corp-emeia-content-acl-1.0-SNAPSHOT.zip" />
+</workspaceFilter>

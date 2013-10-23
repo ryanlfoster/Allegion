@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/allegion-corp-emeia">
+        <exclude pattern="/apps/allegion-corp-emeia/install/(.*)?" />
+        <exclude pattern="/apps/allegion-corp-emeia/config(.*)?" />
+    </filter>
+    <filter root="/etc/designs/allegion-corp-emeia">
+        <exclude pattern="/etc/designs/allegion-corp-emeia/jcr:content" />
+    </filter>
+</workspaceFilter>

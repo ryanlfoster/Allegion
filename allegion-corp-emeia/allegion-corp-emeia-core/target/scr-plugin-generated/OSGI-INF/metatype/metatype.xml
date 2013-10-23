@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.allegion.corp.emeia.service.HelloWorldService" name="allegion-corp-emeia Project Hello World Service" description="Demo OSGI service impl for allegion-corp-emeia"/>
+    <Designate pid="com.allegion.corp.emeia.service.HelloWorldService">
+        <Object ocdref="com.allegion.corp.emeia.service.HelloWorldService"/>
+    </Designate>
+</metatype:MetaData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>ALLEGION allegion-corp-emeia Project Content ACLs</comment>
+<entry key="createdBy">Valtech</entry>
+<entry key="name">allegion-corp-emeia-content-acl</entry>
+<entry key="acHandling">Overwrite</entry>
+<entry key="created">2013-10-18T13:27:59.164+0200</entry>
+<entry key="groupId">com.allegion.corp.emeia</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">allegion/allegion-corp-emeia</entry>
+<entry key="description">ALLEGION allegion-corp-emeia Project content repository policies (rep:policy)</entry>
+<entry key="artifactId">allegion-corp-emeia-content-acl</entry>
+<entry key="path">/etc/packages/allegion/allegion-corp-emeia/allegion-corp-emeia-content-acl.zip</entry>
+</properties>

@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1382096270806
+Build-Jdk: 1.6.0_51
+Built-By: vivek.malviya
+Bundle-Category: allegion
+Bundle-ContactAddress: support@valtech-agency.fr
+Bundle-Description: ALLEGION allegion-corp-emeia Project Core Bundle for
+  CQ5 WCM
+Bundle-DocURL: http://www.allegion.corp.com/fr
+Bundle-ManifestVersion: 2
+Bundle-Name: ALLEGION allegion-corp-emeia Project Core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: com.allegion.corp.emeia.allegion-corp-emeia-core
+Bundle-Vendor: Valtech, 2013
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Created-When: Fri Oct 18 13:37:50 CEST 2013
+Export-Package: com.allegion.corp.emeia.resource;uses:="org.apache.sling
+ .commons.json,org.slf4j,org.apache.sling.api.resource";version="1.0.0.S
+ NAPSHOT",com.allegion.corp.emeia.service;version="1.0.0.SNAPSHOT"
+Import-Package: com.allegion.corp.emeia.resource;version="[1.0,2)",com.a
+ llegion.corp.emeia.service;version="[1.0,2)",org.apache.sling.api;versi
+ on="[2.2,3)",org.apache.sling.api.adapter;version="[2.2,3)",org.apache.
+ sling.api.resource;version="[2.3,3)",org.apache.sling.api.servlets;vers
+ ion="[2.1,3)",org.apache.sling.commons.json;version="[2.0,3)",org.apach
+ e.sling.commons.json.io;version="[2.0,3)",org.slf4j;version="[1.6,2)"
+Private-Package: com.allegion.corp.emeia.impl.service,com.allegion.corp.
+ emeia.impl.servlet,com.allegion.corp.emeia.impl
+Scm-Revision: -1
+Service-Component: OSGI-INF/serviceComponents.xml
+Tool: Bnd-1.50.0

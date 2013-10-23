@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>ALLEGION allegion-corp-emeia Project Release</comment>
+<entry key="createdBy">Valtech</entry>
+<entry key="name">allegion-corp-emeia-release-app</entry>
+<entry key="created">2013-10-18T13:41:06.455+0200</entry>
+<entry key="groupId">com.allegion.corp.emeia</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">allegion/allegion-corp-emeia</entry>
+<entry key="description">&lt;b style="color:#000000;"&gt;ALLEGION allegion-corp-emeia Project Application Release for CQ5 WCM&lt;/b&gt;&lt;br/&gt;</entry>
+<entry key="artifactId">allegion-corp-emeia-release-app</entry>
+<entry key="path">/etc/packages/allegion/allegion-corp-emeia/allegion-corp-emeia-release-app.zip</entry>
+</properties>

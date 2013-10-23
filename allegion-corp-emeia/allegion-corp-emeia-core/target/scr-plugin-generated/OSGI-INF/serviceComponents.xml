@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="com.allegion.corp.emeia.HelloWorldAdapterFactory">
+        <implementation class="com.allegion.corp.emeia.impl.HelloWorldAdapterFactory"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.api.adapter.AdapterFactory"/>
+        </service>
+        <property name="service.vendor" value="Valtech S.A."/>
+        <property name="service.description" value="HelloWorld factory adapter"/>
+        <property name="adaptables">
+            org.apache.sling.api.resource.Resource
+            org.apache.sling.api.resource.ResourceResolver
+        </property>
+        <property name="adapters">
+            com.allegion.corp.emeia.resource.HelloWorld
+            com.allegion.corp.emeia.service.HelloWorldService
+        </property>
+        <property name="service.pid" value="com.allegion.corp.emeia.HelloWorldAdapterFactory"/>
+        <reference name="helloWorldService" interface="com.allegion.corp.emeia.service.HelloWorldService" cardinality="1..1" policy="static" bind="bindHelloWorldService" unbind="unbindHelloWorldService"/>
+    </scr:component>
+    <scr:component immediate="true" name="com.allegion.corp.emeia.service.HelloWorldService">
+        <implementation class="com.allegion.corp.emeia.impl.service.HelloWorldServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.allegion.corp.emeia.service.HelloWorldService"/>
+        </service>
+        <property name="service.description" value="allegion-corp-emeia Project Hello World Service"/>
+        <property name="service.vendor" value="Valtech S.A."/>
+        <property name="service.pid" value="com.allegion.corp.emeia.service.HelloWorldService"/>
+    </scr:component>
+    <scr:component name="com.allegion.corp.emeia.impl.servlet.HelloWorldServlet">
+        <implementation class="com.allegion.corp.emeia.impl.servlet.HelloWorldServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.resourceTypes">
+            allegion/allegion-corp-emeia/components/allegion-corp-emeia
+        </property>
+        <property name="sling.servlet.extensions">
+            json
+        </property>
+        <property name="sling.servlet.methods">
+            GET
+        </property>
+        <property name="service.vendor" value="Valtech"/>
+        <property name="service.pid" value="com.allegion.corp.emeia.impl.servlet.HelloWorldServlet"/>
+        <reference name="helloWorldService" interface="com.allegion.corp.emeia.service.HelloWorldService" cardinality="1..1" policy="static" bind="bindHelloWorldService" unbind="unbindHelloWorldService"/>
+    </scr:component>
+</components>

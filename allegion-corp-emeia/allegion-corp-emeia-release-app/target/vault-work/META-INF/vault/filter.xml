@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/allegion-corp-emeia/install" />
+    <filter root="/etc/packages/allegion/allegion-corp-emeia/allegion-corp-emeia-components-1.0-SNAPSHOT.zip" />
+    <filter root="/etc/packages/allegion/allegion-corp-emeia/allegion-corp-emeia-workflows-1.0-SNAPSHOT.zip" />
+    <filter root="/etc/packages/allegion/allegion-corp-emeia/allegion-corp-emeia-config-1.0-SNAPSHOT.zip" />
+</workspaceFilter>
